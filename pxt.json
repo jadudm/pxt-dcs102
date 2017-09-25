@@ -1,0 +1,18 @@
+{
+    "name": "DCS102",
+    "version": "0.0.0",
+    "description": "Functions to support DCS102 at Bates College",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
