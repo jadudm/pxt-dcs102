@@ -47,7 +47,7 @@ namespace DCS {
      * @param n The number we are checking for evenness.
      */
     //% blockId=dcs_is_even
-    //% block="is %n even?"
+    //% block="is %n even"
     export function is_even(n: number): boolean {
         return ((n % 2) == 0);
     }
@@ -59,7 +59,7 @@ namespace DCS {
      * @param n The number we are checking for oddness.
      */
     //% blockId=dcs_is_odd
-    //% block="is %n odd?"
+    //% block="is %n odd"
     export function is_odd(n: number): boolean {
         return ((n % 2) == 1);
     }
