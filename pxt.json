@@ -1,7 +1,7 @@
 {
-    "name": "DCS102",
-    "version": "0.0.4",
-    "description": "Functions to support DCS102 at Bates College",
+    "name": "DCS @ Bates",
+    "version": "0.0.5",
+    "description": "Functions to support DCS at Bates College",
     "license": "MIT",
     "dependencies": {
         "core": "*",

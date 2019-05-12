@@ -63,4 +63,21 @@ namespace DCS {
     export function is_odd(n: number): boolean {
         return ((n % 2) == 1);
     }
+
+    /**
+     * Returns true if a number is odd.
+     * Example: is_odd(8) will be false.
+     *
+     * @param command_channel The MIDI command channel.
+     * @param value The value to be sent
+     */
+    //% blockId=dcs_midi
+    //% block="send %value|over %command_channel"
+    export function midi(command_channel: number, value: number): void {
+        serial.writeString("S");
+        serial.writeNumber(command_channel);
+        serial.writeString("E");
+        serial.writeNumber(value);
+        serial.writeString("E");       
+    }
 }
